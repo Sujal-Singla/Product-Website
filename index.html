@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScrollCart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1>GizmoGlide</h1>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="#">Products</a>
+          <a href="#">Contact</a>
+          <a href="cart.html">Cart <span id="cart-count">0</span></a>
+        </div>
+      </nav>
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <h1>Redefining Sound</h1>
+          <p>
+            Experience 360° immersive surround sound with EchoSphere. Elevate
+            your audio experience with **smart voice assistant, deep bass, and
+            seamless multi-room connectivity**.
+          </p>
+          <div class="hero-buttons">
+            <button class="buy-now">Buy Now</button>
+            <button class="learn-more">Learn More</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="./images/pngimg.com - headphones_PNG7645.png"
+            alt="EchoSphere Speaker"
+          />
+        </div>
+      </section>
+      <hr />
+      <section id="product">
+        <div class="text">
+          <h1>Discover the Future of Sound</h1>
+          <p>
+            Explore our premium range of wireless smart speakers, designed for
+            immersive 360° surround sound and seamless connectivity.
+          </p>
+        </div>
+        <div class="cardContainer">
+          <div class="card" data-product-id="echo-mini-1">
+            <!-- ADDED: data-product-id -->
+            <div class="img">
+              <img src="./images/pngimg.com - headphones_PNG7645.png" alt="" />
+            </div>
+            <div class="text">
+              <div class="title">EchoSphere Mini</div>
+              <div class="tag">Compact. Powerful. Smart.</div>
+              <div class="price">₹4,999</div>
+              <a href="#">Know More →</a>
+              <button class="add-to-cart">Add to Cart</button>
+              <!-- ADDED: Add to Cart button -->
+            </div>
+          </div>
+          <div class="card" data-product-id="echo-mini-2">
+            <!-- ADDED: data-product-id -->
+            <div class="img">
+              <img src="./images/pngimg.com - headphones_PNG7645.png" alt="" />
+            </div>
+            <div class="text">
+              <div class="title">EchoSphere Mini</div>
+              <div class="tag">Compact. Powerful. Smart.</div>
+              <div class="price">₹4,999</div>
+              <a href="#">Know More →</a>
+              <button class="add-to-cart">Add to Cart</button>
+              <!-- ADDED: Add to Cart button -->
+            </div>
+          </div>
+          <div class="card" data-product-id="echo-mini-3">
+            <!-- ADDED: data-product-id -->
+            <div class="img">
+              <img src="./images/pngimg.com - headphones_PNG7645.png" alt="" />
+            </div>
+            <div class="text">
+              <div class="title">EchoSphere Mini</div>
+              <div class="tag">Compact. Powerful. Smart.</div>
+              <div class="price">₹4,999</div>
+              <a href="#">Know More →</a>
+              <button class="add-to-cart">Add to Cart</button>
+              <!-- ADDED: Add to Cart button -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="anime1">
+        <canvas></canvas>
+      </section>
+
+      <section class="details-section">
+        <div class="details-container">
+          <h2 class="details-title">Innovation Meets Performance</h2>
+          <p class="details-subtitle">
+            Experience the next-gen sound technology with GizmoGlide EchoSphere
+            – designed for audiophiles who demand immersive clarity, smart
+            connectivity, and a futuristic design.
+          </p>
+
+          <div class="details-content">
+            <div class="details-text">
+              <div class="feature">
+                <span>💡</span>
+                <h3>Adaptive Acoustic AI</h3>
+                <p>
+                  Automatically adjusts sound based on your environment for an
+                  optimized experience.
+                </p>
+              </div>
+              <div class="feature">
+                <span>🔊</span>
+                <h3>Ultra-HD 360° Sound</h3>
+                <p>
+                  Enjoy crystal-clear highs, deep bass, and an immersive
+                  surround experience.
+                </p>
+              </div>
+              <div class="feature">
+                <span>📡</span>
+                <h3>Smart Multi-Device Sync</h3>
+                <p>
+                  Seamlessly connect to multiple devices with next-gen Bluetooth
+                  5.3.
+                </p>
+              </div>
+              <div class="feature">
+                <span>🔋</span>
+                <h3>24-Hour Battery Life</h3>
+                <p>
+                  Enjoy uninterrupted playback with long-lasting battery
+                  performance.
+                </p>
+              </div>
+              <div class="feature">
+                <span>🎛️</span>
+                <h3>Personalized Sound Profiles</h3>
+                <p>
+                  Customize your music experience with AI-driven equalizer
+                  settings.
+                </p>
+              </div>
+              <div class="feature">
+                <span>⚡</span>
+                <h3>Wireless Charging Dock</h3>
+                <p>
+                  Minimalist design with fast, hassle-free charging for
+                  convenience.
+                </p>
+              </div>
+            </div>
+
+            <div class="details-image">
+              <img src="" alt="GizmoGlide EchoSphere" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="anime2">
+        <canvas></canvas>
+      </section>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
